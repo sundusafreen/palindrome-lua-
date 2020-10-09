@@ -17,7 +17,7 @@
 function palindrome(str)
 	-- write your code here
 	r = str.reverse(str)
-	if (str == r) then
+	if (str.lower(str) == r.lower(r)) then
 	    print("It is palindrome")
 	else
 	    print("It is not palindrome")
